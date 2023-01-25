@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0; 
+    max-height: 20px;
+    min-height: 20px; 
+}
+
+.nav {
+    background-color: aqua;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    max-height: 50px;
+    min-height: 50px; 
+}
+.site-title {
+    font-size: 2rem ;
+    font-style:normal;
+}
+.nav a{
+
+    text-decoration: none;
+    color: inherit;
+}

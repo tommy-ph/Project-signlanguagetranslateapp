@@ -1,0 +1,8 @@
+@import "../../Utils/global.css";
+.sub-container{
+  height: 50vh;
+  background:var(--yellow) ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

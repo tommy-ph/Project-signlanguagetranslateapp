@@ -1,0 +1,22 @@
+@import "../../Utils/global.css";
+.header-container {
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--white);
+  border-bottom: 1px solid var(--darkYellow);
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--white);
+  margin-left: 3px;
+  background-color: var(--darkYellow);
+}
